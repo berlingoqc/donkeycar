@@ -12,7 +12,7 @@ f = Figlet(font='speed')
 
 
 print(f.renderText('Donkey Car'))
-print(f'using donkey v{__version__} ...')
+print(f'using wq donkey v{__version__} ...')
 
 if sys.version_info.major < 3 or sys.version_info.minor < 8:
     msg = f'Donkey Requires Python 3.8 or greater. You are using {sys.version}'
